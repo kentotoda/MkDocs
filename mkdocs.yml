@@ -1,0 +1,34 @@
+site_name: KS部
+
+nav:
+    - Home: home/index.md
+    - テスト:
+        - Test-first: testpages/test-first.md
+        - Test-second: testpages/test-second.md
+        - Test-third:
+            - Test-third-1: testpages/test-third-1.md
+            - Test-third-2: testpages/test-third-2.md
+    - 仕様書サンプル: sample/sample.md
+
+theme:
+  name: 'material'
+  language: 'ja'
+  feature:
+    tabs: true
+extra_css:
+    - "//fonts.googleapis.com/earlyaccess/notosansjp.css"
+    - "//fonts.googleapis.com/css?family=Open+Sans:600,800"
+    - "css/custom.css"
+    - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+extra:
+    font:
+        text: "Noto Sans JP"
+        code: "Consolas"
+    palette:
+        primary: "indigo"
+        accent: "red"
+    search:
+        language: 'ja'
+markdown_extensions:
+    - admonition
+    - fontawesome_markdown

@@ -1,7 +1,7 @@
 site_name: KS部
 
 nav:
-    - Home: home/index.md
+    - Home: index.md
     - テスト:
         - Test-first: testpages/test-first.md
         - Test-second: testpages/test-second.md

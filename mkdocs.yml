@@ -1,4 +1,4 @@
-site_name: KS部
+site_name: sample
 
 nav:
     - Home: index.md

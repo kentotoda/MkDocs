@@ -9,6 +9,7 @@ nav:
             - Test-third-1: testpages/test-third-1.md
             - Test-third-2: testpages/test-third-2.md
     - 仕様書サンプル: sample/sample.md
+    - セットアップ方法: setup/setup.md
 
 theme:
   name: 'material'
